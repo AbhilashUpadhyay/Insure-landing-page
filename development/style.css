@@ -1,0 +1,464 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Karla', sans-serif;
+    
+}
+.container{
+    width: 100%;
+    height: 115vh;
+}
+nav{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh ;
+}
+#white-p{
+    width: 80%;
+}
+ul{
+    display: flex;
+    list-style: none;
+    position: relative;
+    right: 10%;
+}
+li{
+    padding: 9px 16px;
+    color: hsl(273, 4%, 51%);
+    cursor: pointer;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.logo{
+    padding: 10px;
+    position: relative;
+    left: 10%;
+   
+}
+.sec1{
+    width: 100%;
+    height: 82vh;
+    display: flex;
+    background:hsl(256, 26%, 20%) ;
+    justify-content: center;
+
+}
+.left-sec1{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.right-sec1{
+    position: relative;
+    width: 35%;
+    height: 105%;
+    top: 19%;
+
+}
+
+#right-img{
+    width: 100%;
+    height: 100%;
+}
+h1{
+    font-size: 3.5rem;
+    color: white;
+    margin: 15px 5px;
+    font-family: 'DM Serif Display', serif;
+
+}
+p{
+    font-size: 16px;
+    color:  hsl(273, 4%, 51%);
+    margin: 10px 5px;
+    line-height: 20px;
+}
+#rect-li{
+  border: 2px solid hsl(256, 26%, 20%);
+  display: inline;
+  width: 140px;
+  display: flex;
+  justify-content: center;
+  color: hsl(256, 26%, 20%);
+  margin: 0 10px;
+
+}
+#rect-li2{
+    border: 2px solid  hsl(0, 0%, 80%);
+    display: inline;
+    width: 140px;
+    display: flex;
+    justify-content: center;
+    color: hsl(0, 0%, 85%);
+    margin:  15px 5px;
+    
+}
+.line{
+    width: 150px;
+    height: 15px;
+    margin: 5px;
+}
+#right-ptrn{
+    position: absolute;
+    width: 350px;
+    height: 480px;
+    top: 10%;
+    right: 0%;
+}
+#left-ptrn{
+    position: absolute;
+    width: 160px;
+    height: 350px;
+    top: 70%;
+    left: 0%;
+}
+.sec2{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+.different-box{
+    width: 76%;
+    height: 85%;
+    display: flex;
+    flex-direction: column;    
+}
+#line2{
+    color:  hsl(273, 4%, 51%);
+    height: 40px;
+}
+#second-h1{
+    color: hsl(260, 6%, 10%);
+    font-family: 'DM Serif Display', serif;
+
+}
+.three-boxes{
+    position: relative;
+    top: 40px;
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: space-between;   
+}
+.box{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;  
+}
+.images-holder{
+    margin: 18px 5px;
+    width: 70px;
+    height: 70px;
+    background-size: contain;    
+}
+#logo2{
+    width: 100%;
+    height: 100%;
+}
+h2{
+    margin: 8px 5px;
+    color: hsl(270, 5%, 15%);
+    font-family: 'DM Serif Display', serif;
+
+}
+.sec3{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    background: url(images/icon-hamburger.svg) no-repeat center center/contain;
+    display: none;
+    
+}
+.close{
+    background: url(images/icon-close.svg) no-repeat center center/contain;
+    
+}
+.find-box{
+    position: relative;
+    width: 80%;
+    height: 62%;
+    background: hsl(256, 26%, 20%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#rect-li3{
+    border: 2px solid   hsl(0, 0%, 85%);
+    display: inline;
+    width: 155px;
+    display: flex;
+    justify-content: center;
+    color:  hsl(0, 0%, 85%);
+    margin:  15px 5px;
+    z-index: 1;
+}
+.pattern-footer{
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    height: 100%;
+    width: 32%;  
+}
+#white-p{
+    color:  hsl(0, 0%, 86%);
+}
+#footer-logo{
+    left: 0%;
+}
+.social-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social-img{
+    padding: 5px 8px;
+    cursor: pointer;
+}
+footer{
+    display: flex;
+    height: 65vh;
+    width: 100%;
+    background:hsl(0, 0%, 98%) ;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.footer-inside{
+    width: 76%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#nav2{
+    border-bottom: 2px solid hsl(0, 0%, 92%);
+    z-index: 1;  
+}
+.footer-pattern{
+    position: absolute;
+    left: 0%;
+    top: 0%;
+}
+.four-boxes{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    z-index: 1;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.li2{
+    list-style: none;
+    letter-spacing: 1px;
+    font-size: 14px;
+    color: hsl(270, 9%, 17%);
+    padding: 8px 0;
+}
+h3{
+     font-size: 14px;
+    color: rgb(167, 167, 167);
+    font-family: 'DM Serif Display', serif;
+
+}
+.footer-box{
+    width: 22%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-transform: uppercase;
+}
+
+@media only screen and (max-width:600px) {
+    .three-boxes{
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }  
+
+    .menu{
+        display: flex;
+        position: relative;
+        right: 2%;
+    }
+    .box{
+        width: 80%;
+        padding: 0;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .sec2{
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 50px;    
+    }
+    .different-box{
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    h1{
+        font-size: 3rem;
+    }
+    ul{
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        width: 100vw;
+        left: 0%;
+        top: 10%;
+        z-index: 2;
+        transform: translate(-120%);
+        background-color: hsl(256, 26%, 20%);
+        height: 55vh;
+        align-items: center;
+       
+        
+
+    }
+     .showUl{
+         display: flex;
+         transform: translate(0%);
+         padding: 20px;
+     }
+   
+    li{
+        padding: 25px  ;
+        width: 80%;
+        color: hsl(0, 0%, 84%);
+        margin: 5px;
+
+    }
+    ul li{
+        text-align: center;
+        font-size: 1.1rem;
+    }
+    #rect-li:hover,li:hover{
+        border: 2px solid white;
+    }
+    .footer-pattern{
+        display: none;
+    }
+    .find-box{
+        flex-direction: column;
+        width: 100%;
+        height: 80%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .sec1{
+        
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        position: relative;
+        height: 94%;
+    }
+    .container{
+        height: 140vh;
+        width: 100%;
+       
+    }
+      .left-sec1{
+        width: 100%;
+        height: 50%;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 50%;
+        padding: 10px;
+    }
+     .right-sec1{
+       position: absolute;
+       left: 0%;
+       top: 0%;
+       width: 100%;
+       height: 48%;
+    }
+    footer{
+        width: 100%;
+        height: 100%;
+        margin-top: 30px;
+    }
+    #nav2{
+        width: 90%;
+        flex-direction: column;
+        align-items: flex-start;
+        height: 100%;
+        padding: 20px 0;
+    }
+    .four-boxes{
+        
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 100%;
+    }
+    .footer-inside{
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer-box{
+        width: 40%;
+        height: 20%;
+        margin: 10px;     
+    }
+    h3{
+        color: hsl(256, 26%, 20%);
+        padding: 10px 0;
+    }
+    #right-ptrn{
+        display: none;
+    }
+    h1{
+        z-index: 1;
+    }
+    .logo{
+        left: 0;
+    }
+    #rect-li{
+        
+        display: inline;
+        justify-content: center;
+        color: hsl(0, 0%, 84%);
+        width: 80%;
+      
+      }
+      #rect-li2,#rect-li3{
+          width: 65%;
+      }
+      #white-p{
+        width: 90%;
+      }
+    }
